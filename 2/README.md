@@ -1,0 +1,15 @@
+# parcel
+    - dev build
+    - server
+    - auto browser refresh
+    - file watching algorithm-written in c++
+    - HMR- hot module replacement
+    - faster builds-caching things up
+    - its a beast.
+    - image optimisation
+    - minify the files also
+    - compress
+    - consistent hashing-keep track of files
+    - differential bundling - takes care of all versions of browsers(older,mobile)
+    - suports for HTTPS
+    - tree shaking alogorithm-remove unused code
