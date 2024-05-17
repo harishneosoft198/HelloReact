@@ -1,0 +1,915 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "pageOffset": {
+            "nextOffset": "CPFhEOskKIDogI2ot979YTDDDjgC",
+            "widgetOffset": {
+                "restaurantCountWidget": "",
+                "collectionV5RestaurantListWidget_SimRestoRelevance_food": "8",
+                "inlineFacetFilter": "",
+                "collectionV5MastheadWidget": ""
+            }
+        },
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+                        "collectionId": "83646",
+                        "title": "South Indian",
+                        "description": "Explore hot & spicy dishes that are a specialty of South India.",
+                        "imageId": "v1674029927/PC_Creative%20refresh/3D_bau/collections_new/South_Indian.png",
+                        "aspectRatio": "3.44",
+                        "cta": {
+                            "link": "swiggy://collectionV2?collection_id=83646&tags=layout_CCS_SouthIndian,south%20indian,layout_SouthIndian,ads_pc_south_indian",
+                            "type": "collectionv2"
+                        },
+                        "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+                        "count": "192 restaurants"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+                        "sortConfigs": [
+                            {
+                                "key": "relevance",
+                                "title": "Relevance (Default)",
+                                "selected": true,
+                                "defaultSelection": true
+                            },
+                            {
+                                "key": "deliveryTimeAsc",
+                                "title": "Delivery Time"
+                            },
+                            {
+                                "key": "modelBasedRatingDesc",
+                                "title": "Rating"
+                            },
+                            {
+                                "key": "costForTwoAsc",
+                                "title": "Cost: Low to High"
+                            },
+                            {
+                                "key": "costForTwoDesc",
+                                "title": "Cost: High to Low"
+                            }
+                        ],
+                        "restaurantCount": 192,
+                        "facetList": [
+                            {
+                                "label": "Veg/Non-veg",
+                                "id": "isVeg",
+                                "selection": "SELECT_TYPE_SINGLESELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Pure veg",
+                                        "id": "isVegfacetquery2",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Non Veg",
+                                        "id": "isVegfacetquery3",
+                                        "analytics": {}
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_FLATTENED",
+                                "subLabel": "Filter by"
+                            },
+                            {
+                                "label": "Delivery Time",
+                                "id": "deliveryTime",
+                                "selection": "SELECT_TYPE_SINGLESELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Less than 30 mins",
+                                        "id": "deliveryTimefacetquery2",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Less than 45 mins",
+                                        "id": "deliveryTimefacetquery3",
+                                        "analytics": {}
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_FLATTENED",
+                                "subLabel": "Filter by"
+                            },
+                            {
+                                "label": "Cost for two",
+                                "id": "costForTwo",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Rs. 300-Rs. 600",
+                                        "id": "costForTwofacetquery3",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Greater than Rs. 600",
+                                        "id": "costForTwofacetquery4",
+                                        "analytics": {}
+                                    },
+                                    {
+                                        "label": "Less than Rs. 300",
+                                        "id": "costForTwofacetquery5",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filter by"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "widgetPadding": {
+                                "left": 16,
+                                "top": 20,
+                                "right": 16,
+                                "bottom": 16
+                            },
+                            "scrollBar": {},
+                            "widgetTheme": {
+                                "defaultMode": {
+                                    "backgroundColour": "#FFFFFF",
+                                    "theme": "THEME_TYPE_LIGHT"
+                                },
+                                "darkMode": {
+                                    "backgroundColour": "#1B3028",
+                                    "theme": "THEME_TYPE_DARK"
+                                }
+                            }
+                        },
+                        "id": "restaurantCountWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                                "text": "192 restaurants to explore",
+                                "headerStyling": {
+                                    "textSize": 15,
+                                    "textColor": "text_color_highest_emphasis",
+                                    "textFontName": "FONT_NAME_HEADER_H5",
+                                    "maxLines": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "660675",
+                            "name": "Cafe Amudham",
+                            "cloudinaryImageId": "384d020ad18d2752ddd119cb585024d7",
+                            "locality": "5th Block Kormangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "South Indian",
+                                "Snacks"
+                            ],
+                            "avgRating": 4.6,
+                            "veg": true,
+                            "parentId": "396620",
+                            "avgRatingString": "4.6",
+                            "totalRatingsString": "5K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=13585938~p=0~adgrpid=13585938#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=660675~eid=80b62f34-cfd0-41c7-8688-8979492cab27~srvts=1715937974637~collid=83646",
+                            "sla": {
+                                "deliveryTime": 23,
+                                "lastMileTravel": 0.9,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "20-25 mins",
+                                "lastMileTravelString": "0.9 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-18 00:45:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                        "description": "OnlyOnSwiggy"
+                                    }
+                                ],
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                                    "description": "OnlyOnSwiggy"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "",
+                                                    "shortDescription": "options available",
+                                                    "fontColor": "#7E808C",
+                                                    "iconId": "guiltfree/GF_Logo_android_3x"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=660675&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "18972",
+                            "name": "Nandhana Palace",
+                            "cloudinaryImageId": "195876a3181ef63f76e45e3a7b49b585",
+                            "locality": "Indiranagar",
+                            "areaName": "Indiranagar",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "Andhra",
+                                "South Indian",
+                                "North Indian"
+                            ],
+                            "avgRating": 4.3,
+                            "parentId": "2120",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "10K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=13587997~p=1~adgrpid=13587997#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=18972~eid=bfa8e74c-eb9c-4928-8be5-aa16eb4b2698~srvts=1715937974637~collid=83646",
+                            "sla": {
+                                "deliveryTime": 34,
+                                "lastMileTravel": 5,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "30-35 mins",
+                                "lastMileTravelString": "5.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-18 02:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {},
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "Delivery!",
+                                                    "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "5K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=18972&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "528523",
+                            "name": "New Ambur Biryani Point",
+                            "cloudinaryImageId": "2b6b93195cd8e50f9e393692cf91ed7d",
+                            "locality": "Mahalingeshwara layout",
+                            "areaName": "Adugodi",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "North Indian"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "318345",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "1K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=13587807~p=2~adgrpid=13587807#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=528523~eid=b41cfdb2-6981-4dc5-804f-1bbd4cf7eb64~srvts=1715937974637~collid=83646",
+                            "sla": {
+                                "deliveryTime": 24,
+                                "lastMileTravel": 2.5,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "20-25 mins",
+                                "lastMileTravelString": "2.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-17 23:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹45",
+                                "discountTag": "POCKET HERO",
+                                "discountCalloutInfo": {
+                                    "message": "Free Delivery",
+                                    "logoCtx": {
+                                        "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+                                    }
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=528523&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "618120",
+                            "name": "Shetty Lunch Home",
+                            "cloudinaryImageId": "9a20e9402f1cf882448914050c644393",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹450 for two",
+                            "cuisines": [
+                                "Mangalorean",
+                                "Seafood",
+                                "Coastal",
+                                "North Indian",
+                                "South Indian",
+                                "Chinese"
+                            ],
+                            "avgRating": 4.3,
+                            "parentId": "12478",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "1K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=13587339~p=3~adgrpid=13587339#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=618120~eid=41bf6db5-efff-44ca-8bd1-5beb8e40c706~srvts=1715937974637~collid=83646",
+                            "sla": {
+                                "deliveryTime": 21,
+                                "lastMileTravel": 0.9,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "20-25 mins",
+                                "lastMileTravelString": "0.9 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-17 23:30:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "Rxawards/_CATEGORY-Coastal.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "Delivery!",
+                                                    "imageId": "Rxawards/_CATEGORY-Coastal.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "ABOVE ₹1000",
+                                "discountTag": "FLAT DEAL"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=618120&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "20819",
+                            "name": "Rashtrakutas",
+                            "cloudinaryImageId": "m5x8aigby54u8czpop6k",
+                            "locality": "HSR Layout",
+                            "areaName": "HSR",
+                            "costForTwo": "₹550 for two",
+                            "cuisines": [
+                                "Andhra",
+                                "South Indian",
+                                "Biryani"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "21602",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "10K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=13587860~p=4~adgrpid=13587860#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=20819~eid=f7bb9535-9796-4c7b-a9a7-271660131463~srvts=1715937974637~collid=83646",
+                            "sla": {
+                                "deliveryTime": 32,
+                                "lastMileTravel": 4.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "30-35 mins",
+                                "lastMileTravelString": "4.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-17 15:30:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "1K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=20819&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "129078",
+                            "name": "IDC Kitchen",
+                            "cloudinaryImageId": "snjgye3qig7pxrceokna",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹150 for two",
+                            "cuisines": [
+                                "South Indian",
+                                "North Indian",
+                                "Indian"
+                            ],
+                            "avgRating": 4.4,
+                            "veg": true,
+                            "parentId": "105824",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                                "deliveryTime": 24,
+                                "lastMileTravel": 2.2,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "20-25 mins",
+                                "lastMileTravelString": "2.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-18 00:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ],
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                    "description": "",
+                                                    "shortDescription": "options available",
+                                                    "fontColor": "#7E808C"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                    "description": "pureveg"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.2",
+                                    "ratingCount": "1K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=129078&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "375041",
+                            "name": "Andhra Gunpowder",
+                            "cloudinaryImageId": "byilgyrcfz690ryoasww",
+                            "locality": "6th Block",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹350 for two",
+                            "cuisines": [
+                                "Andhra",
+                                "Biryani",
+                                "South Indian"
+                            ],
+                            "avgRating": 4.5,
+                            "parentId": "10496",
+                            "avgRatingString": "4.5",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 17,
+                                "lastMileTravel": 0.1,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "15-20 mins",
+                                "lastMileTravelString": "0.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-18 01:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "Rxawards/_CATEGORY-Andhra.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textExtendedBadges": {},
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "Rxawards/_CATEGORY-Andhra.png",
+                                                    "description": "Delivery!"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "ABOVE ₹800",
+                                "discountTag": "FLAT DEAL"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=375041&source=collection&query=South%20Indian",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "nextFetch": 3
+    },
+    "tid": "96b5c3dd-d276-4469-a9f3-d775ff0843cc",
+    "sid": "dvqed980-e077-4bde-a538-ccb0b93ddf43",
+    "deviceId": "4b9ca61f-8373-4a19-4497-6680c3965d35",
+    "csrfToken": "SuYZ1rB6cTLq-0XzB8vJ8bG5Cb4BvsSgDNeVUA-4"
+}

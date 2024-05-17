@@ -1,0 +1,102 @@
+{
+    "id": "660675",
+    "name": "Cafe Amudham",
+    "cloudinaryImageId": "384d020ad18d2752ddd119cb585024d7",
+    "locality": "5th Block Kormangala",
+    "areaName": "Koramangala",
+    "costForTwo": "₹200 for two",
+    "cuisines": [
+        "South Indian",
+        "Snacks"
+    ],
+    "avgRating": 4.6,
+    "veg": true,
+    "parentId": "396620",
+    "avgRatingString": "4.6",
+    "totalRatingsString": "5K+",
+    "promoted": true,
+    "adTrackingId": "cid=13585938~p=0~adgrpid=13585938#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=660675~eid=a46a922a-89ab-40eb-a634-4b6b0b290d3d~srvts=1715929700029~collid=83646",
+    "sla": {
+        "deliveryTime": 28,
+        "lastMileTravel": 0.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "0.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2024-05-18 00:45:00",
+        "opened": true
+    },
+    "badges": {
+        "imageBadges": [
+            {
+                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                "description": "OnlyOnSwiggy"
+            }
+        ],
+        "textExtendedBadges": [
+            {
+                "iconId": "guiltfree/GF_Logo_android_3x",
+                "shortDescription": "options available",
+                "fontColor": "#7E808C"
+            }
+        ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+        "entityBadges": {
+            "textExtendedBadges": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "description": "",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C",
+                            "iconId": "guiltfree/GF_Logo_android_3x"
+                        }
+                    }
+                ]
+            },
+            "textBased": {},
+            "imageBased": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                            "description": "OnlyOnSwiggy"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "30% OFF",
+        "subHeader": "UPTO ₹75"
+    },
+    "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+    },
+    "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+        }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+        "aggregatedRating": {
+            "rating": "--"
+        }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+}
